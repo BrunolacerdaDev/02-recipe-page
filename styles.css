@@ -20,7 +20,7 @@
     }
 
     .div{
-        margin: 15px 250px 30px;
+        margin: 15px 150px  30px;
         padding: 50px;
         background: var(--bg-div);
         border-radius: 10px;
@@ -71,3 +71,12 @@
         margin: 30px auto 15px;
     }
 
+@media (max-width: 450px){
+    .div{
+        margin: 15px 15px  30px;
+        padding: 50px;
+        background: var(--bg-div);
+        border-radius: 10px; 
+    }
+
+}
